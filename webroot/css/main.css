@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+footer {
+  background-color: #EDEDED;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  padding: 0px;
+}
+footer .footer-links {
+  display: grid;
+}
+footer .container-footer-sitemap {
+  display: flex;
+}
+footer .column {
+  width: 23.5%;
+  float: left;
+  margin: 0px 0px 0px 2%;
+  position: relative;
+}
+footer .column.first {
+  clear: both;
+}
+footer h3.widget-title {
+  margin-bottom: 35px;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+}
+footer h3.widget-title::after {
+  content: "";
+  height: 1px;
+  background: #E1E1E1;
+  width: 100px;
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+}
+footer .container-footer-copyright {
+  width: 100%;
+  float: left;
+  clear: both;
+  padding: 20px 0px;
+  border-top: 1px solid #E1E1E1;
+}
+
+/*# sourceMappingURL=main.css.map */

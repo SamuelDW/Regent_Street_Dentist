@@ -1,0 +1,60 @@
+footer
+{
+    background-color: $secondary-background-grey;
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px;
+
+    .footer-links
+    {
+        display: grid;
+    }
+
+    .container-footer-sitemap
+    {
+        display: flex;
+    }
+
+    .column
+    {
+        width: 23.5%;
+        float: left;
+        margin: 0px 0px 0px 2%;
+        position: relative;
+
+        &.first
+        {
+            clear: both;
+
+        }
+    }
+
+    h3.widget-title
+    {
+        margin-bottom: 35px;
+        font-size: 18px;
+        text-transform: uppercase;
+        position: relative;
+    }
+
+    h3.widget-title::after
+    {
+        content: "";
+        height: 1px;
+        background: #E1E1E1;
+        width: 100px;
+        position: absolute;
+        bottom: -10px;
+        left: 0px;
+    }
+
+    .container-footer-copyright
+    {
+        width: 100%;
+        float: left;
+        clear: both;
+        padding: 20px 0px;
+        border-top: 1px solid #E1E1E1;
+    }
+}
